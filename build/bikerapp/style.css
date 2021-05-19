@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #9cecfb; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0052d4,
+    #65c7f7,
+    #9cecfb
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0052d4,
+    #65c7f7,
+    #9cecfb
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container {
+  width: 500px;
+  position: relative;
+  margin: auto;
+  background-color: white;
+}
+#video-thumbnails {
+  width: inherit;
+}
+#header-section {
+  text-align: center;
+  height: 100px;
+  overflow: hidden;
+}
+#header-section > img {
+  width: 100px;
+  height: 100px;
+}
+#main-content {
+  width: 490px;
+  height: 300px;
+  margin: auto;
+  overflow: hidden;
+}
+#main-content > iframe {
+  width: inherit;
+  height: inherit;
+}
+.video-section {
+  margin-top: 10px;
+  display: flex;
+  border: 2px solid white;
+}
+.video-section:hover {
+  border: 2px solid lightseagreen;
+}
+.box1 {
+  width: 200px;
+  height: 100px;
+}
+.box1 > img {
+  height: 100px;
+  width: 100px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+.box2 {
+  width: 300px;
+  height: 100px;
+  padding: 10px;
+}
+.box2 > p {
+  margin-top: 10px;
+  color: grey;
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
